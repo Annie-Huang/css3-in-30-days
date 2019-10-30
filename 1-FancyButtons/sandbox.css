@@ -3,3 +3,36 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+.facebook-style-btn {
+    border-radius: 2px; /* Interesting.. border-radius on a <button> will make the button pops.*/
+    font-size: 0.9rem;
+    padding: 6px 12px;
+}
+
+.facebook-style-dark {
+    /*inset means do it inside the block level element, e.g. the div
+      first number is the horizontal value, positive number shift to right, negative value shift to left
+      select number is the vertical value, positive number shift to down, negative value shift to up
+      third number is the blur-radius, 0 is a sharp line, 10px will be blury box shadow
+      forth number is spread-radius. 0 if you don't want it to do anything. A high number means you want the shadow to really spread
+      The following result thin blue line close to the top of the button.
+    */
+    -moz-box-shadow:    inset 0 1px 0 0 #4d73bf;
+    -webkit-box-shadow: inset 0 1px 0 0 #4d73bf;
+    box-shadow:         inset 0 1px 0 0 #4d73bf;
+
+    background: #4267b2;
+    border: solid 1px #4267b2;
+    color: white;
+    text-shadow: 0 1px 0 #3359a5;
+}
+
+.facebook-style-dark:hover {
+    background: #2b54a7;
+}
+
+.facebook-style-dark:active {
+    background: #1d4698;
+    border-color: #1d4698;
+}
