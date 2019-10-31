@@ -129,9 +129,69 @@
     /*bottom: -3px;*/
 }
 
+/* =====================
+   3D BUTTON 2
+   ===================== */
 
+.btn-3d-2 {
+    position: relative;
 
+    background: #ecd300;
+    background: -webkit-radial-gradient(hsl(54, 100%, 50%), hsl(54, 100%, 40%));
+    background: -o-radial-gradient(hsl(54, 100%, 50%), hsl(54, 100%, 40%));
+    background: -moz-radial-gradient(hsl(54, 100%, 50%), hsl(54, 100%, 40%));
+    background: radial-gradient(hsl(54, 100%, 50%), hsl(54, 100%, 40%));
 
+    font-size: 1.4rem;
+    text-shadow: 0 -1px 0 #c3af07;
+    /* -1px is vertically goes -1px, meaning the shadow will be 1px above the text. 1px is vertically goes 1px, will make it 1px below the text) */
+    /* https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_text-shadow */
 
+    color: white;
+    border: solid 1px hsl(54, 100%, 20%);
+    border-radius: 100%;
+    height: 120px;
+    width: 120px;
+    z-index: 4;
+
+    outline: none;
+
+    box-shadow: inset 0 1px hsl(54, 100%, 50%),
+                0 2px hsl(54, 100%, 20%),
+                0 3px hsl(54, 100%, 18%),
+                0 4px hsl(54, 100%, 16%),
+                0 5px hsl(54, 100%, 14%),
+                0 6px hsl(54, 100%, 12%),
+                0 7px hsl(54, 100%, 10%),
+                0 8px hsl(54, 100%, 8%),
+                0 9px hsl(54, 100%, 6%);
+}
+
+.btn-3d-2:hover {
+    background: -webkit-radial-gradient(hsl(54, 100%, 45%), hsl(54, 100%, 35%));
+    background: -o-radial-gradient(hsl(54, 100%, 45%), hsl(54, 100%, 35%));
+    background: -moz-radial-gradient(hsl(54, 100%, 45%), hsl(54, 100%, 35%));
+    background: radial-gradient(hsl(54, 100%, 45%), hsl(54, 100%, 35%));
+}
+
+/* active is darker than hover*/
+.btn-3d-2:active {
+    background: -webkit-radial-gradient(hsl(54, 100%, 43%), hsl(54, 100%, 33%));
+    background: -o-radial-gradient(hsl(54, 100%, 43%), hsl(54, 100%, 33%));
+    background: -moz-radial-gradient(hsl(54, 100%, 43%), hsl(54, 100%, 33%));
+    background: radial-gradient(hsl(54, 100%, 43%), hsl(54, 100%, 33%));
+
+    /*When it's pressed, push down 2px*/
+    top: 2px;
+
+    /*Remove two layer of shadow when it's pressed.*/
+    box-shadow: inset 0 1px hsl(54, 100%, 50%),
+                0 2px hsl(54, 100%, 20%),
+                0 3px hsl(54, 100%, 18%),
+                0 4px hsl(54, 100%, 16%),
+                0 5px hsl(54, 100%, 14%),
+                0 6px hsl(54, 100%, 12%),
+                0 7px hsl(54, 100%, 10%);
+}
 
 
