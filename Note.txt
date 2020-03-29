@@ -8,3 +8,7 @@ Final css is in final.css
 Sexy Typography: CSS Tutorial (Day 2 of CSS3 in 30 Days)
 https://www.youtube.com/watch?v=LrZNeyK1xU8&list=PLWKjhJtqVAbl1AfjiGyYxwpdAPi5v-1OU&index=3&t=0s
 
+
+========================================================
+
+C:\react\css3-in-30-day>npm init -y

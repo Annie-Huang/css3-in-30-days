@@ -1,0 +1,20 @@
+{
+  "name": "css3-in-30-day",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server --baseDir=./2-SexyTypography"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annie-Huang/css3-in-30-days.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Annie-Huang/css3-in-30-days/issues"
+  },
+  "homepage": "https://github.com/Annie-Huang/css3-in-30-days#readme"
+}
