@@ -5,3 +5,16 @@
     http://bennettfeely.com/clippy/
 
    ====================================== */
+
+.clip-image-1 {
+    /*
+    https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path#circle()
+    <circle()> = circle( [ <shape-radius> ]? [ at <position> ]? )
+    shape-radius: 50% is the max you should take for a circle, small value will make circle to be smaller. bigger than 50% will round the corner but never entirely on the edge.
+    position is x and y position, start from the top left corner.
+    (0, 0) is the top left corner, (100% 100%) is the bottom right corner.
+    position indicate where we should put this image.
+    */
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+}

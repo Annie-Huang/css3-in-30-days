@@ -1,6 +1,8 @@
 https://www.youtube.com/playlist?list=PLWKjhJtqVAbl1AfjiGyYxwpdAPi5v-1OU    CSS3 in 30 Days
 
+https://bennettfeely.com/clippy/
 https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
+https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
 
 ================================================================
 
