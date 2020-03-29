@@ -19,3 +19,37 @@
     */
     text-shadow: 3px 3px 0 #e7eef1, 8px 8px 0 rgba(0,0,0,0.1);
 }
+
+.threedee-typo {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #f2395a;
+    /*
+      skew(ax, ay)
+      ax : Is an <angle> representing the angle to use to distort the element along the abscissa.
+      ay : Is an <angle> representing the angle to use to distort the element along the ordinate.
+      ax: -5deg means the top of the letters move to the right for 5 degs while keep the bottom unmoved.
+      ay: -5deg means the left of the letters move downwards for 5 degs while keep the right unmoved.
+
+      Together with the rotate, it looks like Italic, except when you do mouse select, the selection part will be Italic as well.
+    */
+    -webkit-transform: skew(0deg, -5deg) rotate(5deg);
+    transform: skew(0deg, -5deg) rotate(5deg);
+
+    /* Not sure why the author wants to change it because By default, the origin of a transform is center.*/
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+
+    /*offset-x | offset-y | blur-radius | color*/
+    text-shadow: 1px 1px #d10e31,
+                 2px 2px #d10e31,
+                 3px 3px #d10e31,
+                 4px 4px #d10e31,
+                 5px 5px #d10e31,
+                 6px 6px #d10e31,
+                 7px 7px #d10e31,
+                 8px 8px #890920,   /* The last bit is dark red so it looks like embedded into the surface. */
+                 9px 9px #890920,
+                 10px 10px #890920,
+                 11px 11px 15px rgba(0,0,0,0.5); /* rgab(0,0,0) is black color */
+}
