@@ -3,3 +3,19 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+.shadow-typo {
+    position: relative;
+    display: inline-block;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #00b3b4;
+
+    /* offset-x | offset-y | blur-radius | color
+       downwards, to the right,
+       Multiple shadows is separate by ,
+       rgba: rgba(red, green, blue, alpha)
+       alpha: Defines the opacity as a number between 0.0 (fully transparent) and 1.0 (fully opaque)
+    */
+    text-shadow: 3px 3px 0 #e7eef1, 8px 8px 0 rgba(0,0,0,0.1);
+}
