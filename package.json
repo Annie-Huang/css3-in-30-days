@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./3-ClippingImages"
+    "start": "lite-server --baseDir=./4-SexyRegistrationForm"
   },
   "repository": {
     "type": "git",
