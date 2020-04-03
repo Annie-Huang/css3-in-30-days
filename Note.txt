@@ -16,6 +16,8 @@ https://www.youtube.com/watch?v=LrZNeyK1xU8&list=PLWKjhJtqVAbl1AfjiGyYxwpdAPi5v-
 Clipping Images: CSS Tutorial (Day 3 of CSS3 in 30 Days)
 https://www.youtube.com/watch?v=G6Dd8yviOt0
 
+Sexy Registration Form: CSS Tutorial (Day 4 of CSS3 in 30 Days)
+https://www.youtube.com/watch?v=ncM5Ldt5Trs
 ========================================================
 
 C:\react\css3-in-30-day>npm init -y
