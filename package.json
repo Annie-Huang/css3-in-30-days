@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./5-UsefulBrokenImages"
+    "start": "lite-server --baseDir=./6-PrintStyles"
   },
   "repository": {
     "type": "git",
