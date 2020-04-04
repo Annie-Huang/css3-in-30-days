@@ -18,6 +18,10 @@ https://www.youtube.com/watch?v=G6Dd8yviOt0
 
 Sexy Registration Form: CSS Tutorial (Day 4 of CSS3 in 30 Days)
 https://www.youtube.com/watch?v=ncM5Ldt5Trs
+
+Useful Broken Images: CSS Tutorial (Day 5 of CSS3 in 30 Days)
+https://www.youtube.com/watch?v=0Vkdn_dlvZE&list=PLWKjhJtqVAbl1AfjiGyYxwpdAPi5v-1OU&index=5
+
 ========================================================
 
 C:\react\css3-in-30-day>npm init -y
