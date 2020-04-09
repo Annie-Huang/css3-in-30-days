@@ -10,14 +10,28 @@
     margin: 80px auto;
     width: 16em;
     height: 16em;
-    border: 1px solid;
+}
+
+#wahoo {
+    outline: none;
+}
+
+#wahoo:active + .mario-block {
+    transition: all 0.3 ease;
+    animation: wahooMario 0.8s ease-in-out 1; /* loop it only once */
+}
+
+@keyframes wahooMario {
+    0% { left: 0; bottom: 0; transform: rotate(0); }
+    30% { left: 200px; bottom: 200px; transform: rotate(-25deg); }
+    80% { left: 400px; bottom: 0; transform: rotate(0); }
+    100% { left: 0; bottom: 0; }
 }
 
 .mario {
     display: block;
     width: 1em;
     height: 1em;
-    border: 1px solid red;
     background: #e7eef1;
     box-shadow:
             0em 0em #e7eef1,
