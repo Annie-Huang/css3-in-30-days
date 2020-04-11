@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./9-ModernLayouts"
+    "start": "lite-server --baseDir=./10-PricingTable"
   },
   "repository": {
     "type": "git",
