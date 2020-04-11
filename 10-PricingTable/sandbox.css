@@ -4,8 +4,24 @@
 
    ====================================== */
 
+/* This tutorial does not work with lite-server. You will have to keep refreshing the html file. */
 
+.pricing-table {
+    margin: 60px auto;
+}
 
+.pricing-table::after {
+    display: table;
+    content: '';
+    clear: both;
+}
 
-
+.pricing-table > div {
+    display: block;
+    float: left;
+    width: 48%;
+    min-height: 1px;
+    background-color: #fff;
+    color: #555;
+}
 
