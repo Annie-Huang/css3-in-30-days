@@ -29,6 +29,18 @@ https://www.youtube.com/watch?v=CAgLAeykOyU&list=PLWKjhJtqVAbl1AfjiGyYxwpdAPi5v-
 Image Manipulation: CSS Tutorial (Day 7 of CSS3 in 30 Days)
 https://www.youtube.com/watch?v=6ooZfzQ9Ifo&list=PLWKjhJtqVAbl1AfjiGyYxwpdAPi5v-1OU&index=7
 
+Sticky Footer: CSS Tutorial (Day 13 of CSS3 in 30 Days)
+https://www.youtube.com/watch?v=RApARNfPwsA&list=PLWKjhJtqVAbl1AfjiGyYxwpdAPi5v-1OU&index=13
+The solution provided in the tutorial is a fix footer height,
+See
+https://css-tricks.com/couple-takes-sticky-footer/
+C:\react\tvs-mobile-ui
+For varies footer height.
+
 ========================================================
 
 C:\react\css3-in-30-day>npm init -y
+
+
+
+
