@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start1": "lite-server --baseDir=./13-StickyFooter",
-    "start": "lite-server"
+    "start": "lite-server --baseDir=./14-StickyHeader",
+    "start1": "lite-server"
   },
   "repository": {
     "type": "git",
