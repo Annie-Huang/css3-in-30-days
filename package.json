@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./14-StickyHeader",
+    "start": "lite-server --baseDir=./15-StickySidebar",
     "start1": "lite-server"
   },
   "repository": {
