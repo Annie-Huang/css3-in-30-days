@@ -3,3 +3,27 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+/* This tutorial is unfortunately, another tutorial that does not work with lite-server. You will have to keep refreshing the html file.
+   This html we are going to work on is the student.html
+   Navigate there and keep refreshing the page to see effect.
+   http://localhost:63342/css3-in-30-day/15-StickySidebar/student.html
+
+*/
+
+.sticky-sidebar-lesson {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* A clearfix. Allow the footer to stay put rather than collapsing up when we start floating the next element*/
+.sticky-sidebar-lesson::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.sticky-sidebar-lesson .sandbox {
+    width: 60%;
+    margin: 0 0 40px;
+    float: left;
+}
