@@ -22,8 +22,8 @@
     */
     pointer-events: none; /* if you click this, it should register of anything*/
 
-    opacity: 0.4;
-    /*opacity: 0;*/
+    /*opacity: 0.4;*/
+    opacity: 0;
     -webkit-transform: scale(0.5);
     transform: scale(0.5);
 }
@@ -55,8 +55,8 @@ input[type="checkbox"]:checked ~ .overlay {
     width: 100%;
     max-width: 640px;
     pointer-events: none;
-    opacity: 0.3;
-    /*opacity: 0;*/
+    /*opacity: 0.3;*/
+    opacity: 0;
 }
 
 input[type="checkbox"]:checked ~ .modal {
@@ -66,7 +66,7 @@ input[type="checkbox"]:checked ~ .modal {
     transform: translate(-50%, -50%) scale(1);
     -webkit-transition: transform 0.5s ease, opacity 0.5s ease;
     transition: transform 0.5s ease, opacity 0.5s ease;
-    transition-delay: 0.1s;
+    transition-delay: 0.1s; /* wait until the overlay comes first, it looks nicer */
 }
 
 .modal__content {
