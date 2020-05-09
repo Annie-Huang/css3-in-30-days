@@ -3,3 +3,33 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+/* This tutorial is unfortunately, another tutorial that does not work with lite-server. You will have to keep refreshing the html file.
+   This html we are going to work on is the student.html
+   Navigate there and keep refreshing the page to see effect.
+   http://localhost:63342/css3-in-30-day/14-StickyHeader/student.html
+
+   The markup you need for this tutorial is in this structure:
+      <div class="sticky-header">
+      </div>
+      <div class="sandbox">
+      </div>
+      <footer>
+      </footer>
+*/
+
+body.sticky-header-lesson {
+    margin-top: 200px;
+}
+
+.sticky-header {
+    background: rgba(242, 57, 90, 0.9);
+
+    position: fixed;
+    top: 0;
+    height: 180px;
+    width: 100%;
+
+    z-index: 99;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
