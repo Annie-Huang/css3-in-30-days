@@ -3,3 +3,27 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+/* This tutorial is unfortunately, another tutorial that does not work with lite-server. You will have to keep refreshing the html file.
+*/
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+    background: #000;
+
+    /* The overlay, we don't actually want it to be the target of a mouse event.
+       We want to be able to click through it we don't want it to conflict with if we want
+       to click something.
+    */
+    pointer-events: none; /* if you click this, it should register of anything*/
+
+    opacity: 0.5;
+    /*opacity: 0;*/
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+}
