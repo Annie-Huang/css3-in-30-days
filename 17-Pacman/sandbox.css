@@ -26,3 +26,49 @@
     left: 5%; /* This is because we have width of 90%, so we need to have 5% on each side of the dots */
     margin-top: -6px; /* this is because the doc is 12px (diameter), which means the top: 50% is touching the top of the dot. So we need to negative half of the diameter back */
 }
+
+.pacman {
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+}
+
+/* Create pacman out of a border, not out of a background color
+   Keep in mind this is two elements (before element and after element), they just overlap on top of each other.
+*/
+.pacman::before, .pacman::after {
+    content: "";
+    display: block;
+
+    /*If you put 30px for the height and width, you will see how the border effect result into a square box*/
+    /*height: 30px;*/
+    /*width: 30px;*/
+
+    height: 0;
+    width: 0;
+    position: absolute;
+    border: solid 30px yellow; /* The square box width is 60px. The element is a invisiable dot in the middle with not width */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
