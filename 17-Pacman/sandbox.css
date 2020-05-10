@@ -3,3 +3,21 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+.path {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: #333;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.path::after {
+    content: "";
+    position: absolute;
+    display: block;
+    border-top: 12px dotted white; /* this is the white dots on the path */
+    width: 90%; /* visual element you cannot see unless there is a width */
+}
