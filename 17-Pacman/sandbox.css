@@ -20,4 +20,9 @@
     display: block;
     border-top: 12px dotted white; /* this is the white dots on the path */
     width: 90%; /* visual element you cannot see unless there is a width */
+
+    /* Put the dots into the center */
+    top: 50%;
+    left: 5%; /* This is because we have width of 90%, so we need to have 5% on each side of the dots */
+    margin-top: -6px; /* this is because the doc is 12px (diameter), which means the top: 50% is touching the top of the dot. So we need to negative half of the diameter back */
 }
