@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./16-ModalWindow",
+    "start": "lite-server --baseDir=./17-Pacman",
     "start1": "lite-server"
   },
   "repository": {
