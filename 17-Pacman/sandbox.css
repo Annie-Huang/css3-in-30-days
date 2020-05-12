@@ -34,6 +34,8 @@
 
     /* Make it linear speed */
     animation: moveForward 5s linear infinite;
+    /* Add delay so it won't overlap with .ghost's moveForward */
+    animation-delay: 0.8s;
 }
 
 /* Create pacman out of a border, not out of a background color
@@ -88,6 +90,8 @@
 
     border-top-left-radius: 70px;
     border-top-right-radius: 70px;
+
+    animation: moveForward 5s linear infinite;
 }
 
 /* The two eyes of the ghost - the white part */
