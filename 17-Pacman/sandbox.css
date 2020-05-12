@@ -124,6 +124,17 @@
     left: 30px;
 }
 
+.skirt, .skirt::before, .skirt::after {
+    position: absolute;
+    height: 0;
+    width: 0;
+    /*border: solid 10px #333;*/
+    border: solid 10px purple;
+    border-top-color: transparent;
+    bottom: -10px;
+}
+
+
 
 @keyframes moveForward {
     /* Want start from the off screen from left, rather than starting from the frame position*/
