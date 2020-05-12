@@ -76,6 +76,17 @@
 
 }
 
+.ghost {
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    left: 20%;
+    height: 70px;
+    width: 60px;
+    margin-top: -35px; /* This is to negative half (70px) to push it back in the middle */
+    background: red;
+}
+
 @keyframes moveForward {
     /* Want start from the off screen from left, rather than starting from the frame position*/
     0% {
