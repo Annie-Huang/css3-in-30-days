@@ -132,6 +132,7 @@
 
 .eyes::after {
     left: 30px;
+    animation: peeperRight 0.7s linear infinite;
 }
 
 .skirt, .skirt::before, .skirt::after {
@@ -198,7 +199,19 @@
 }
 
 
+@keyframes peeperRight {
+    0%, 100% {
+        /* this is the same as the default position (left: 30px;) of the .eyes::after */
+        left: 30px;
+    }
+    50% {
+        /* This makes both eyes have the same movement */
+        /*left: 35px;*/
 
+        /* This makes the eyes move a bit more, more googly */
+        left: 38px;
+    }
+}
 
 
 
