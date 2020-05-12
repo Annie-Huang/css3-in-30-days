@@ -134,6 +134,15 @@
     bottom: -10px;
 }
 
+.skirt::before {
+    content: "";
+    left: 10px;
+}
+
+.skirt::after {
+    content: "";
+    left: 30px;
+}
 
 
 @keyframes moveForward {
