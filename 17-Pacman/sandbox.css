@@ -65,7 +65,7 @@
 }
 
 .pacman::after {
-    margin-left: 65px;
+    /*margin-left: 65px;*/
 
     /* Over all, make the before element border right and top to be transparent */
     border-color: yellow;
