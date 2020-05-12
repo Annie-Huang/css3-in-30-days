@@ -40,14 +40,24 @@
     content: "";
     display: block;
 
-    /*If you put 30px for the height and width, you will see how the border effect result into a square box*/
+    /*If you put 30px for the height and width, you will see how the border effect result into a square box
+      If you confuse by any part, always switch back height and width to be 30px and then you will see it clearly
+    */
     /*height: 30px;*/
     /*width: 30px;*/
 
     height: 0;
     width: 0;
     position: absolute;
-    border: solid 30px yellow; /* The square box width is 60px. The element is a invisiable dot in the middle with not width */
+    border: solid 30px yellow; /* The square box width and height are both 60px. The element is a invisiable dot in the middle with not width */
+
+    margin-top: -30px; /* Because the height is 60px from top:50%, so negative -30px will push it back into the center */
+    border-radius: 50%;
+    border-right-color: transparent;
+}
+
+.pacman::after {
+    margin-left: 65px;
 }
 
 
