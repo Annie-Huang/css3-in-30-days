@@ -54,10 +54,18 @@
     margin-top: -30px; /* Because the height is 60px from top:50%, so negative -30px will push it back into the center */
     border-radius: 50%;
     border-right-color: transparent;
+
+    /* Over all, make the before element border right and bottom to be transparent */
+    border-bottom-color: transparent;
 }
 
 .pacman::after {
     margin-left: 65px;
+
+    /* Over all, make the before element border right and top to be transparent */
+    border-color: yellow;
+    border-right-color: transparent;
+    border-top-color: transparent;
 }
 
 
