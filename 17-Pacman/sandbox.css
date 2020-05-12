@@ -32,6 +32,9 @@
     z-index: 99;
     top: 50%;
 
+    /* Need to move the pacman out of the picture, otherwise when you refresh the page, it will appear on the page first while waiting for the delay*/
+    left: -20%;
+
     /* Make it linear speed */
     animation: moveForward 5s linear infinite;
     /* Add delay so it won't overlap with .ghost's moveForward */
