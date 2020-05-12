@@ -126,6 +126,8 @@
     top: 25px;
     left: 5px;
     z-index: 99;
+
+    animation: peeperLeft 0.7s linear infinite;
 }
 
 .eyes::after {
@@ -185,7 +187,15 @@
     }
 }
 
-
+@keyframes peeperLeft {
+    0%, 100% {
+        /* this is the same as the default position (left: 5px;) of the .eyes::before, .eyes::after */
+        left: 5px;
+    }
+    50% {
+        left: 10px;
+    }
+}
 
 
 
