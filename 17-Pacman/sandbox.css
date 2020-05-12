@@ -31,6 +31,9 @@
     position: absolute;
     z-index: 99;
     top: 50%;
+
+    /* Make it linear speed */
+    animation: moveForward 5s linear infinite;
 }
 
 /* Create pacman out of a border, not out of a background color
@@ -71,6 +74,16 @@
 
     animation: mouthBottom 0.7s ease infinite;
 
+}
+
+@keyframes moveForward {
+    /* Want start from the off screen from left, rather than starting from the frame position*/
+    0% {
+        left: -20%;
+    }
+    100% {
+        left: 100%;
+    }
 }
 
 /* We choose 44 deg because we don't want the other side to see the black background
