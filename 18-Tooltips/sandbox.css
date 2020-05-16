@@ -15,3 +15,26 @@
     font-size: 18px;
     margin: 0 auto; /*this is to adjust it to the middle of the page */
 }
+
+.tooltip::before {
+    position: absolute;
+    z-index: 2;
+    display: none;
+    width: 200px;
+    padding: 10px;
+
+    /* 80% of the parent element, which is 18px. so 18px * 0.8 = 14.4px */
+    font-size: 0.8em;
+
+    line-height: 1.4em;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+
+    /*content: "";*/
+    content: attr(title); /* instead of "", we put the title value of the element into the content */
+}
+
+.tooltip:hover::before {
+    display: inline-block;
+}
