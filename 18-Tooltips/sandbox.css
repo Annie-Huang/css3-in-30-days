@@ -60,5 +60,6 @@
 
     /* Create the triangle through border-top-color, So it is a much nicer way to do than
        using background color and rotate 45 degree */
+    /* Unfortunately ou cannot use the same technique in lodgement-ui because it's using box-shadow, not regular colored triangle*/
     border-top-color: rgba(0,0,0,0.8);
 }
