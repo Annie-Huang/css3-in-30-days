@@ -51,10 +51,14 @@
     width: 0;
     height: 0;
 
-    border: 5px solid green;
+    border: 5px solid pink;
     /*border: 5px solid transparent;*/
 
     content: '';
     bottom: 100%;
     left: 50%;
+
+    /* Create the triangle through border-top-color, So it is a much nicer way to do than
+       using background color and rotate 45 degree */
+    border-top-color: rgba(0,0,0,0.8);
 }
