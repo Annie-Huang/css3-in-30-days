@@ -42,7 +42,7 @@
     /* Transform + translate is a better options as it's be more smoothly moving element into position
        https://medium.com/@ArthurFinkler/css-animations-translate-vs-absolute-positioning-and-background-position-dd39fbdeade5
     */
-    transform: translate(-50%);
+    transform: translateX(-50%);
 }
 
 .tooltip:hover::before,
@@ -72,4 +72,7 @@
        using background color and rotate 45 degree */
     /* Unfortunately ou cannot use the same technique in lodgement-ui because it's using box-shadow, not regular colored triangle*/
     border-top-color: rgba(0,0,0,0.8);
+
+    border-bottom-width: 0; /* This is pushing it down 50%. You can use other way such as calc etc. But it looks simpler */
+    transform: translateX(-50%);
 }
