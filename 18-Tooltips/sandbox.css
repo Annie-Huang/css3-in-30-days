@@ -40,16 +40,18 @@
 /* This is triangle pointer pointing the tooltip content box to the 'Hover over me' box */
 .tooltip::after {
     position: absolute;
-    z-index: 10;
-    /*z-index: 1;*/
-    /*display: none;*/
+    /*Does matter if z-index is smaller or larger than tooltip:before */
+    /*z-index: 10;*/
+    z-index: 1;
+
+    display: none;
 
     /* Make the element with 0 width and height, and use the border to form the square, just like what we do in pacman */
     width: 0;
     height: 0;
 
-    border: 5px solid pink;
-    /*border: 5px solid transparent;*/
+    /*border: 5px solid pink;*/
+    border: 5px solid transparent;
 
     content: '';
 }
