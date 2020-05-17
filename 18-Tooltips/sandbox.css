@@ -87,17 +87,34 @@
 
 
 
-/* Abstract the position of the content box of the tooltip right */
+/* Position of the content box of the tooltip right */
 .tooltip.right::before {
     left: calc(100% + 5px);
     top: 50%;
     transform: translateY(-50%);
 }
-/* Abstract the position of the tooltip pointer of the tooltip right */
+/* Position of the tooltip pointer of the tooltip right */
 .tooltip.right::after {
     left: 100%;
     top: 50%;
     border-right-color: rgba(0,0,0,0.8);
     border-left-width: 0;
     transform: translateY(-50%);
+}
+
+
+
+/* Position of the content box of the tooltip bottom */
+.tooltip.bottom::before {
+    top: calc(100% + 5px);
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* Position of the tooltip pointer of the tooltip bottom */
+.tooltip.bottom::after {
+    top: 100%;
+    left: 50%;
+    border-bottom-color: rgba(0,0,0,0.8);
+    border-top-width: 0;
+    transform: translateX(-50%);
 }
