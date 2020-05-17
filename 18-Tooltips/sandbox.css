@@ -20,7 +20,7 @@
 .tooltip::before {
     position: absolute;
     z-index: 2;
-    display: none;
+    /*display: none;*/
     width: 200px;
     padding: 10px;
 
@@ -29,7 +29,8 @@
 
     line-height: 1.4em;
     border-radius: 5px;
-    background-color: rgba(0,0,0,0.8);
+    background-color: green;
+    /*background-color: rgba(0,0,0,0.8);*/
     color: white;
 
     /*content: "";*/
@@ -41,6 +42,7 @@
     display: inline-block;
 }
 
+/* This is triangle pointer pointing the tooltip content box to the 'Hover over me' box */
 .tooltip::after {
     position: absolute;
     z-index: 10;
