@@ -118,3 +118,20 @@
     border-top-width: 0;
     transform: translateX(-50%);
 }
+
+
+
+/* Position of the content box of the tooltip left */
+.tooltip.left::before {
+    right: calc(100% + 5px);
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* Position of the tooltip pointer of the tooltip left */
+.tooltip.left::after {
+    right: 100%;
+    top: 50%;
+    border-left-color: rgba(0,0,0,0.8);
+    border-right-width: 0;
+    transform: translateY(-50%);
+}
