@@ -93,4 +93,11 @@
     top: 50%;
     transform: translateY(-50%);
 }
-
+/* Abstract the position of the tooltip pointer of the tooltip right */
+.tooltip.right::after {
+    left: 100%;
+    top: 50%;
+    border-right-color: rgba(0,0,0,0.8);
+    border-left-width: 0;
+    transform: translateY(-50%);
+}
