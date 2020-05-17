@@ -45,11 +45,6 @@
     transform: translateX(-50%);
 }
 
-.tooltip:hover::before,
-.tooltip:hover::after {
-    display: inline-block;
-}
-
 /* This is triangle pointer pointing the tooltip content box to the 'Hover over me' box */
 .tooltip::after {
     position: absolute;
@@ -75,4 +70,9 @@
 
     border-bottom-width: 0; /* This is pushing it down 50%. You can use other way such as calc etc. But it looks simpler */
     transform: translateX(-50%);
+}
+
+.tooltip:hover::before,
+.tooltip:hover::after {
+    display: inline-block;
 }
