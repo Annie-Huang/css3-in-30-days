@@ -52,22 +52,19 @@
     /*border: 5px solid transparent;*/
 
     content: '';
-    bottom: 100%;
-    left: 50%;
 
     /* Create the triangle through border-top-color, So it is a much nicer way to do than
        using background color and rotate 45 degree */
     /* Unfortunately ou cannot use the same technique in lodgement-ui because it's using box-shadow, not regular colored triangle*/
     border-top-color: rgba(0,0,0,0.8);
-
-    border-bottom-width: 0; /* This is pushing it down 50%. You can use other way such as calc etc. But it looks simpler */
-    transform: translateX(-50%);
 }
 
 .tooltip:hover::before,
 .tooltip:hover::after {
     display: inline-block;
 }
+
+
 
 /* Abstract the position of the content box of the tooltip top */
 .tooltip.top::before {
@@ -79,3 +76,13 @@
     */
     transform: translateX(-50%);
 }
+/* Abstract the position of the tooltip pointer of the tooltip top */
+.tooltip.top::after {
+    bottom: 100%;
+    left: 50%;
+    border-bottom-width: 0; /* This is pushing it down 50%. You can use other way such as calc etc. But it looks simpler */
+    transform: translateX(-50%);
+}
+
+
+
