@@ -35,14 +35,6 @@
 
     /*content: "";*/
     content: attr(title); /* instead of "", we put the title value of the element into the content */
-
-    /* All adjusting position is related to the parent element, .tooltip, on the top left point of the 'Hover over me' */
-    bottom: calc(100% + 5px); /* We will move it extra 5px up and will move the pointer extra 5 px down */
-    left: 50%; /* Move from 50% of the parent element */
-    /* Transform + translate is a better options as it's be more smoothly moving element into position
-       https://medium.com/@ArthurFinkler/css-animations-translate-vs-absolute-positioning-and-background-position-dd39fbdeade5
-    */
-    transform: translateX(-50%);
 }
 
 /* This is triangle pointer pointing the tooltip content box to the 'Hover over me' box */
@@ -75,4 +67,15 @@
 .tooltip:hover::before,
 .tooltip:hover::after {
     display: inline-block;
+}
+
+/* Abstract the position of the content box of the tooltip top */
+.tooltip.top::before {
+    /* All adjusting position is related to the parent element, .tooltip, on the top left point of the 'Hover over me' */
+    bottom: calc(100% + 5px); /* We will move it extra 5px up and will move the pointer extra 5 px down */
+    left: 50%; /* Move from 50% of the parent element */
+    /* Transform + translate is a better options as it's be more smoothly moving element into position
+       https://medium.com/@ArthurFinkler/css-animations-translate-vs-absolute-positioning-and-background-position-dd39fbdeade5
+    */
+    transform: translateX(-50%);
 }
