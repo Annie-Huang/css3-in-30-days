@@ -86,3 +86,11 @@
 
 
 
+
+/* Abstract the position of the content box of the tooltip right */
+.tooltip.right::before {
+    left: calc(100% + 5px);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
