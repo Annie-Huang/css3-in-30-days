@@ -17,3 +17,19 @@
     box-shadow: inset 0 1px 2px rgba(0,0,0,0.25), 0 1px rgba(255,255,255,0.8);
 }
 
+
+.animation-bar-1 span {
+    position: relative;
+    display: inline-block; /* this is what make the span height thicker */
+    vertical-align: middle;
+    height: 20px; /* What is the point of setting your parent to be line-height: 16px, if the child already stretch height to be 20px */
+
+    /* top-left, top-right, bottom-right, bottom-left
+       So the left side of the bar is around while the right size of the bar is straight cut
+    */
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+
+    background-color: #f56982;
+    background-size: 100%;
+}
