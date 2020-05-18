@@ -62,4 +62,9 @@
             rgba(0,0,0,0) 75%,
             rgba(0,0,0,0)
     );
+
+    /* background-size will not impact current width and height
+       The bigger the size the thicker the stripe.
+    */
+    background-size: 30px 30px;
 }
