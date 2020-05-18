@@ -67,4 +67,6 @@
        The bigger the size the thicker the stripe.
     */
     background-size: 30px 30px;
+
+    opacity: 0.3; /* make the background-color: #f56982; able to come through the white section*/
 }
