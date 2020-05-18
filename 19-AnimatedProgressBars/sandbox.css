@@ -3,3 +3,17 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+.animation-bar-1 {
+    position: relative;
+    display: block;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 30px;
+    background: rgba(0,0,0,0.1);
+    /* 0 1px rgba(255,255,255,0.8) is said to create a white line on the bottom of the bar so it give more depth,
+       although I cannot tell the different even after i change it to 200% */
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.25), 0 1px rgba(255,255,255,0.8);
+}
+
