@@ -43,4 +43,23 @@
     bottom: 0;
     content: "";
     background-size: 100%;
+
+
+    /* #fff: white color
+       rgba(0,0,0,0): transparent
+
+       transparent vs rgba(0,0,0,0)
+       Behaviour is exactly the same, but transparent is compatible also with IE8.
+       RGBA is more advanced (but lacks IE8 support) and allows you to quickly modify it,
+       in case you would like an "almost transparent" color
+    */
+    background-image: linear-gradient(
+            45deg, #fff 25%,
+            rgba(0,0,0,0) 25%,
+            rgba(0,0,0,0) 50%,
+            #fff 50%,
+            #fff 75%,
+            rgba(0,0,0,0) 75%,
+            rgba(0,0,0,0)
+    );
 }
