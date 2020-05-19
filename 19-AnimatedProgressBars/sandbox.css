@@ -130,7 +130,9 @@
 
     /*Green to Dark green from top to down*/
     background-image: linear-gradient(to bottom, #00b3b4, #008081);
-    width: 20%;
+
+    animation: progress-bar-2 6s infinite ease;
+
 }
 
 /* Black tooltip pointer */
@@ -162,3 +164,13 @@
     background-color: rgba(0,0,0,1);
     color: #fff;
 }
+
+@keyframes progress-bar-2 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
