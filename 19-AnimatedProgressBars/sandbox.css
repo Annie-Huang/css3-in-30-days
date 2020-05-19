@@ -132,3 +132,18 @@
     background-image: linear-gradient(to bottom, #00b3b4, #008081);
     width: 20%;
 }
+
+/* Black tooltip pointer */
+.animation-bar-2 span::before {
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 10px solid red;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-top-color: rgba(0,0,0,1);
+    content: '';
+}
