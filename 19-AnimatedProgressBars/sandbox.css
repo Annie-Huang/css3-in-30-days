@@ -118,5 +118,17 @@
     line-height: 16px;
     background: rgba(0,0,0,0.1);
     box-shadow: inset 0 1px 2px rgba(0,0,0,0.25), 0 1px rgba(255,255,255,0.8);
+}
+
+.animation-bar-2 span {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
     height: 20px;
+    background-color: #00e6e7; /* seems this one has not effect as it will be override by the background-image */
+    background-size: 100%;
+
+    /*Green to Dark green from top to down*/
+    background-image: linear-gradient(to bottom, #00b3b4, #008081);
+    width: 20%;
 }
