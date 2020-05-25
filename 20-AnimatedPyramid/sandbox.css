@@ -37,6 +37,10 @@
     font-size: 0.8em;
 
     color: red; /* hide the text initially by making it the same color */
+
+    /* all: position, background, color etc*/
+    /*transition: all ease 0.6s;*/
+    transition: all ease 6s;
 }
 
 .top {
