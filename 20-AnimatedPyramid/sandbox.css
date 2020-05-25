@@ -39,6 +39,10 @@
     color: red; /* hide the text initially by making it the same color */
 }
 
+.top {
+    z-index: 1;
+}
+
 .triangle:hover div {
     color: white;
 }
