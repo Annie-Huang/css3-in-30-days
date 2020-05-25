@@ -3,3 +3,22 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+.triangle {
+    position: relative;
+    height: 320px;
+}
+
+.triangle div {
+    background: red;
+    width: 100%;
+    height: 110px;
+
+    /* top | horizontal | bottom */
+    margin: 0 auto 10px;
+
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    font-size: 0.8em;
+}
