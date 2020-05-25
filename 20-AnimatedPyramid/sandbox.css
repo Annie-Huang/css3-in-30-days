@@ -38,3 +38,46 @@
 
     color: red; /* hide the text initially by making it the same color */
 }
+
+.triangle:hover div {
+    color: white;
+}
+
+.triangle:hover .mid {
+    top: 100px;
+    background: green;
+}
+
+.triangle:hover .bottom {
+    top: 200px;
+    background: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
