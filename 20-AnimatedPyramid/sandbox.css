@@ -19,15 +19,22 @@
 }
 
 .triangle div {
+    /* This will make 3 div all shift to the top and because the clip shape, it will be the top triangle first.*/
+    position: absolute;
+    top: 0;
+
     background: red;
     width: 100%;
     height: 100px;
 
     /* top | horizontal | bottom */
-    margin: 0 auto 10px;
+    /*margin: 0 auto 10px;*/
+    margin: 0 auto;
 
     color: white;
     line-height: 100px;
     text-align: center;
     font-size: 0.8em;
+
+    color: red; /* hide the text initially by making it the same color */
 }
