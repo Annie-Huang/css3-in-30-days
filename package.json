@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./19-AnimatedProgressBars",
+    "start": "lite-server --baseDir=./20-AnimatedPyramid",
     "start1": "lite-server"
   },
   "repository": {
