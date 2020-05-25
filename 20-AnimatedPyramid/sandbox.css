@@ -44,12 +44,12 @@
 }
 
 .triangle:hover .mid {
-    top: 100px;
+    top: 110px; /* will have the gap because the height of each div is just 100px */
     background: green;
 }
 
 .triangle:hover .bottom {
-    top: 200px;
+    top: 220px;
     background: blue;
 }
 
