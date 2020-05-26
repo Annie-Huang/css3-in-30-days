@@ -32,7 +32,8 @@
     /* Clip area always start to the top left corner, and go right (position number) and go down (position number) */
     clip: rect(0, 64px, 32px, 0);
 
-    animation: rotator 1s infinite ease;
+    /*animation: rotator 1s infinite ease;*/
+    animation: rotator 1s infinite linear;
 }
 
 @keyframes rotator {
