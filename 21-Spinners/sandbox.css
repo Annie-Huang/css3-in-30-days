@@ -22,7 +22,8 @@
     content: "";
     width: 64px;
     height: 64px;
-
+    border-radius: 64px;
+    
     color: #323b40;
     /* Change the -5px into 0 or adjust it and you can see how the box-shadow is formed. */
     /*box-shadow: inset 0 0 0 5px currentColor;*/
