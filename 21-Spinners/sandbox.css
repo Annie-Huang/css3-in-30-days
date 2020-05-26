@@ -39,9 +39,12 @@
 @keyframes rotator {
     0% {
         transform: rotate(0deg);
+        box-shadow: inset -5px 0 0 5px currentColor;
     }
     100% {
         transform: rotate(360deg);
+        box-shadow: inset -1px 0 0 1px currentColor;
+
     }
 }
 
