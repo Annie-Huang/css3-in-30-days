@@ -36,24 +36,41 @@
     animation: rotator 1s infinite linear;
 }
 
+/*!* Thickest point at 3 o'clock *!*/
+/*@keyframes rotator {*/
+/*    0% {*/
+/*        transform: rotate(0deg);*/
+/*        box-shadow: inset -5px 0 0 5px currentColor;*/
+/*    }*/
+/*    50% {*/
+/*        transform: rotate(180deg);*/
+/*        box-shadow: inset -1px 0 0 1px currentColor;*/
+/*    }*/
+/*    100% {*/
+/*        transform: rotate(360deg);*/
+/*        !*box-shadow: inset -1px 0 0 1px currentColor;*!*/
+/*        box-shadow: inset -5px 0 0 5px currentColor;*/
+
+/*    }*/
+/*}*/
+
+/* Thickest point at 12 o'clock */
 @keyframes rotator {
     0% {
-        transform: rotate(0deg);
+        transform: rotate(-180deg);
         box-shadow: inset -5px 0 0 5px currentColor;
     }
     50% {
-        transform: rotate(180deg);
+        transform: rotate(0deg);
         box-shadow: inset -1px 0 0 1px currentColor;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate(180deg);
         /*box-shadow: inset -1px 0 0 1px currentColor;*/
         box-shadow: inset -5px 0 0 5px currentColor;
 
     }
 }
-
-
 
 
 
