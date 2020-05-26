@@ -31,4 +31,35 @@
 
     /* Clip area always start to the top left corner, and go right (position number) and go down (position number) */
     clip: rect(0, 64px, 32px, 0);
+
+    animation: rotator 1s infinite ease;
 }
+
+@keyframes rotator {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
