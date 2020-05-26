@@ -14,5 +14,17 @@
     height: 64px;
     border-radius: 64px;
 
-    border: 1px solid black;
+    /*border: 1px solid black;*/
+}
+
+.spinner-1::before {
+    position: absolute;
+    content: "";
+    width: 64px;
+    height: 64px;
+
+    color: #323b40;
+    /* Change the -5px into 0 or adjust it and you can see how the box-shadow is formed. */
+    /*box-shadow: inset 0 0 0 5px currentColor;*/
+    box-shadow: inset -5px 0 0 5px currentColor; /* currentColor will take the color property value */
 }
