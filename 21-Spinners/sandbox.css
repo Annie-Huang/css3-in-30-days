@@ -85,6 +85,18 @@
 }
 
 
+.spinner-2::before,
+.spinner-2::after {
+    position: relative;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 16px;
+    width: 16px;
+    border-radius: 16px;
+    background-color: inherit;
+}
+
 
 
 
