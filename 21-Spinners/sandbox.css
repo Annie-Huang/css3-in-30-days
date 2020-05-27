@@ -97,6 +97,16 @@
     background-color: inherit;
 }
 
+.spinner-2::before {
+    transform: translateX(-120%);
+
+    /* x-offset | y-offset. Start from the top left corner
+       Because the .spinner-2 got margin of 32px, this means the transform-origin is the left tip of the original dot
+    */
+    transform-origin: 32px 50%;
+
+}
+
 
 
 
