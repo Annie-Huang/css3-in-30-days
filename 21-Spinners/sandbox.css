@@ -73,7 +73,16 @@
 }
 
 
-
+.spinner-2 {
+    position: relative;
+    margin: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    background-color: #323b40;
+}
 
 
 
