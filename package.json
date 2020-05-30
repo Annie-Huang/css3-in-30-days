@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./22-FlexboxLayouts",
+    "start": "lite-server --baseDir=./23-CSS3Accordion",
     "start1": "lite-server"
   },
   "repository": {
