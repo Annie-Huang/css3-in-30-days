@@ -3,3 +3,34 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+/* This one allow you to open one accordion, open another which will close the previous one
+   But it doesn't allow you to click twice and close the content.
+*/
+
+.accordion {
+    position: relative;
+    display: block;
+    background-color: white;
+    border: solid 1px #e0e0e0;
+}
+
+.accordion__item {
+    display: block;
+}
+
+.accordion .accordion__content {
+    display: block;
+    padding: 0;
+    height: 0;
+    overflow: hidden;
+
+    transition: height 0.5s ease, padding 0.3s linear;
+}
+
+/* :target will get triggered on <div id="tab1"> when <a href="#tab1"> is click*/
+.accordion .accordion__content:target {
+    height: 150px; /* Initially it was 0 (line 25) */
+}
+
+
