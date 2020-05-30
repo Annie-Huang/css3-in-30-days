@@ -62,15 +62,20 @@
 }
 
 
+.accordion .accordion__title:hover {
+    background-color: #0bbfc0;
+}
 
-
-
-
-
-
-
-
-
-
-
+.accordion .accordion__title::after {
+    position: absolute;
+    content: "";
+    top: calc(50% - 5px);
+    right: 20px;
+    width: 7px;
+    height: 7px;
+    /*background-color: red;*/
+    border-left: solid 2px white;
+    border-bottom: solid 2px white;
+    transform: rotate(-45deg);
+}
 
