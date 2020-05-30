@@ -33,4 +33,32 @@
     height: 150px; /* Initially it was 0 (line 25) */
 }
 
+.accordion .accordion__trigger {
+    text-decoration: none;
+}
+
+/* I really don't see the need to create two class on the accordion header element */
+.accordion .accordion__title {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    font-size: 1em;
+    background: #00B3B4;
+    color: white;
+    border: solid 1px #379AA4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
