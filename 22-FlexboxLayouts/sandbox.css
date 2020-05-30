@@ -7,17 +7,28 @@
 
 .layout1 main {
     display: flex;
+    /*flex-direction: row-reverse;*/
     flex-direction: row;
 }
 
-/* This will make article and aside in ratio of 2:1 */
+/*!* This will make article and aside in ratio of 2:1 *!
 .layout1 article {
     flex: 2;
 }
 .layout1 aside {
     flex: 1;
-}
+}*/
 
+.layout1 article {
+    /* The 1 will keep the article: aside in ratio of 1:1
+       The 58% will make the article more tnan 50% size of the row,
+       but changing it to 100% doesn't make it occupy the whole row as it can detect there is still an aside element there.
+    */
+    flex: 1 58%;
+
+    /* Give some gap between the two element*/
+    margin-right: 2%;
+}
 
 
 
