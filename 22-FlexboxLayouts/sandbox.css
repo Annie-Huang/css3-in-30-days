@@ -3,3 +3,24 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+/* You can use lite server, you will have to keep refresh the index.html to get update for this tutorial */
+
+.layout1 main {
+    display: flex;
+    flex-direction: row;
+}
+
+/* This will make article and aside in ratio of 2:1 */
+.layout1 article {
+    flex: 2;
+}
+.layout1 aside {
+    flex: 1;
+}
+
+
+
+
+
+
+
