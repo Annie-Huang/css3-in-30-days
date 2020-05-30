@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./21-Spinners",
+    "start": "lite-server --baseDir=./22-FlexboxLayouts",
     "start1": "lite-server"
   },
   "repository": {
