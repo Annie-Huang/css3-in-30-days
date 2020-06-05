@@ -67,3 +67,9 @@
 .slide-left .slide-content {
     transform: translate(-100%, 0);
 }
+
+/* If you want it to come from the top left*/
+/*.slide-left .slide-content {*/
+/*    transform: translate(-100%, -100%);*/
+/*}*/
+
