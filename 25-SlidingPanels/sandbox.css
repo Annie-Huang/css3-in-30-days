@@ -3,3 +3,25 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+.slide {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.slide img {
+    display: inline-block;
+    vert-align: middle;
+}
+
+.slide-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
