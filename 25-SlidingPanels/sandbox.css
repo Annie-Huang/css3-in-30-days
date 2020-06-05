@@ -35,5 +35,23 @@
     color: white;
     box-sizing: border-box;
 
+    /* using translate is better for animation vs using position for
+       animation is much more smooth that it goes by fractions of pixels rather than one pixel two pixel three pixel
+       And it's a lot smoother of an animation especially when you have like a retina screen and very nice video card
+    */
     transition: transform 0.3s ease;
+    /*transition: transform 100s ease;*/
+    /*transition: all 100s ease; !* You can see this drop bit by bit *!*/
+}
+
+/* Go back to original location on hover */
+.slide:hover .slide-content {
+    transform: translate(0, 0);
+    /*top: 0;*/
+}
+
+/* DIRECTIONS */
+.slide-top .slide-content {
+    transform: translate(0, -100%);
+    /*top: -100%;*/
 }
