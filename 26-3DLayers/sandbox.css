@@ -40,13 +40,17 @@
     top: -150px;
 }
 
+/* https://alligator.io/css/translatez-and-perspective/ */
 .layers img {
     /*transform: rotateX(50deg) rotateY(20deg) rotateZ(-25deg);*/
 
     /* The lower the perspective value, the closer you are to this element on the z-plate
        Image it as you put down your phone (nearly horizontally) and how close you are toward the bottom of the phone
     */
-    transform: perspective(1200px) rotateX(50deg) rotateY(20deg) rotateZ(-25deg);
+    /*transform: perspective(1200px) rotateX(50deg) rotateY(20deg) rotateZ(-25deg);*/
+
+    transform: perspective(1200px) rotateX(50deg) rotateY(20deg) rotateZ(-25deg)
+                translateX(35px) translateY(0px) translateZ(180px);
 }
 
 
