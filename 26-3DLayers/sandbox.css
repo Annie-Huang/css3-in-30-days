@@ -41,7 +41,7 @@
 }
 
 /* https://alligator.io/css/translatez-and-perspective/ */
-.layers img {
+.layers:hover img {
     /*transform: rotateX(50deg) rotateY(20deg) rotateZ(-25deg);*/
 
     /* The lower the perspective value, the closer you are to this element on the z-plate
