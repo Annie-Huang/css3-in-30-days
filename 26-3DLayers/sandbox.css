@@ -3,3 +3,10 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+.layers {
+    position: relative;
+    min-height: 640px;
+    max-width: 360px;
+}
+
