@@ -21,3 +21,9 @@
     */
     transform-style: preserve-3d;
 }
+
+/* Put the mid.svg to be exactly in the middle of the layers container, which has the width of 360px*/
+.layers img.mid {
+    width: 320px;
+    left: 20px;
+}
