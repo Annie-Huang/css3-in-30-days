@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./25-SlidingPanels",
+    "start": "lite-server --baseDir=./26-3DLayers",
     "start1": "lite-server"
   },
   "repository": {
