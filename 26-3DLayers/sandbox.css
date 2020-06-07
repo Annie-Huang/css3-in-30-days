@@ -39,3 +39,33 @@
     left: 40px;
     top: -150px;
 }
+
+.layers img {
+    /*transform: rotateX(50deg) rotateY(20deg) rotateZ(-25deg);*/
+
+    /* The lower the perspective value, the closer you are to this element on the z-plate
+       Image it as you put down your phone (nearly horizontally) and how close you are toward the bottom of the phone
+    */
+    transform: perspective(1200px) rotateX(50deg) rotateY(20deg) rotateZ(-25deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
