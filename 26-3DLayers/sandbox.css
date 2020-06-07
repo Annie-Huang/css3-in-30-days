@@ -10,3 +10,14 @@
     max-width: 360px;
 }
 
+.layers img {
+    position: absolute;
+    max-width: 100%;
+    height: 100%;
+    transition: all ease 1600ms;
+
+    /* Good demo in this website:
+       https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style
+    */
+    transform-style: preserve-3d;
+}
