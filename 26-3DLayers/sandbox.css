@@ -33,3 +33,9 @@
     left: 30px;
     top: -5px;
 }
+
+.layers img.tippy {
+    width: 280px;
+    left: 40px;
+    top: -150px;
+}
