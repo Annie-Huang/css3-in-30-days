@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./26-3DLayers",
+    "start": "lite-server --baseDir=./27-DropdownMenu",
     "start1": "lite-server"
   },
   "repository": {
