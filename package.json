@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./27-DropdownMenu",
+    "start": "lite-server --baseDir=./28-OptimizingCSS",
     "start1": "lite-server"
   },
   "repository": {
