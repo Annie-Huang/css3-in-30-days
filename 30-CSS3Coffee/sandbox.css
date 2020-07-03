@@ -6,7 +6,7 @@
 
 .coffee {
     position: relative;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
 
 .handle {
@@ -16,6 +16,9 @@
     border-radius: 50px;
     box-shadow: 5px 0 1px 0 rgba(200, 200, 200, 0.8);
     background: white;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
     background-image: linear-gradient(
             180deg,
             rgb(200, 200, 200) 5%,
