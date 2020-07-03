@@ -22,3 +22,13 @@
             rgb(200, 200, 200) 95%
     );
 }
+
+.coffee-cup {
+    position: relative;
+    width: 462px;
+    height: 462px;
+    border-radius: 50%;
+    /*background: pink;*/
+    z-index: 3;
+    box-shadow: 10px 35px 30px 7px rgba(49, 49, 49, 0.1);
+}
