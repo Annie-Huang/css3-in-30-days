@@ -28,7 +28,15 @@
     width: 462px;
     height: 462px;
     border-radius: 50%;
-    /*background: pink;*/
     z-index: 3;
     box-shadow: 10px 35px 30px 7px rgba(49, 49, 49, 0.1);
+    /* You will have to remove this one by one to see the creating process */
+    background-image: radial-gradient(
+            50% 50%,
+            rgb(14,7,0) 65%,
+            rgb(185,144,18) 75%,
+            rgb(129,129,129) 75%,
+            rgb(255,255,255) 95%,
+            rgb(161,161,161) 100%
+    );
 }
