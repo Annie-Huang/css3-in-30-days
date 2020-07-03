@@ -3,3 +3,22 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+.coffee {
+    position: relative;
+}
+
+.handle {
+    position: absolute;
+    width: 127px;
+    height: 50px;
+    border-radius: 50px;
+    box-shadow: 5px 0 1px 0 rgba(200, 200, 200, 0.8);
+    background: white;
+    background-image: linear-gradient(
+            180deg,
+            rgb(200, 200, 200) 5%,
+            rgb(255, 255, 255) 50%,
+            rgb(200, 200, 200) 95%
+    );
+}
