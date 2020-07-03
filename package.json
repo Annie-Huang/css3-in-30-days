@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./29-BlurryEffect",
+    "start": "lite-server --baseDir=./30-CSS3Coffee",
     "start1": "lite-server"
   },
   "repository": {
