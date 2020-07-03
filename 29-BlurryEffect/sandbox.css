@@ -16,3 +16,14 @@
     transition: filter 0.3s linear, tranform 0.3s linear;
 }
 
+/* Make is blur and smaller when you hover over the container */
+.depth-gallery:hover img {
+    filter: blur(4px);
+    transform: scale(0.9);
+}
+
+/* Make is clear and bigger when you hover over the image */
+.depth-gallery img:hover {
+    filter: blur(0);
+    transform: scale(1.1);
+}
